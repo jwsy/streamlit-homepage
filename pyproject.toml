@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "home-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Jason Yee"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.35.0"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
